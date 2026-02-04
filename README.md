@@ -45,6 +45,15 @@ All credits for the original method belong to the authors.
 
 Below are qualitative results from different phases of the HiEUM pipeline:
 
+### Foreground Extraction and Motion Overlay (Phase 2)
+This figure illustrates the foreground extraction result of Phase 2, where moving regions are highlighted and overlaid on the original satellite frame. The foreground mask is obtained through background modeling and subtraction, allowing candidate motion regions to be separated from the static background. This step serves as a crucial pre-processing stage for subsequent sparse representation and motion refinement phases.
+
+
+### Binary Ground Truth Mask 
+![Ground Truth Mask](fig_groundtruth_binary_mask.png)
+
+This binary mask is generated from dataset bounding box annotations and is used only for qualitative comparison with the unsupervised detection results.
+
 ### Phase 3 – Foreground Extraction
 ![Phase 3](figures/phase3_foreground_extraction.png)
 
