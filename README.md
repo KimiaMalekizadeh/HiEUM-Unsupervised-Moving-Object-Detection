@@ -19,6 +19,24 @@ The implementation focuses on qualitative analysis and algorithmic understanding
 ## Original Work
 - Official paper and code: https://github.com/ChaoXiao12/Moving-object-detection-in-satellite-videos-HiEUM
 
+## Project Structure
+
+The implementation is organized into sequential Jupyter notebooks,
+each corresponding to one phase of the HiEUM framework:
+
+- **Phase 0**: Dataset Reduction  
+- **Phase 1**: Preprocessing  
+- **Phase 2**: Background Modeling  
+- **Phase 3**: Motion / Foreground Extraction  
+- **Phase 4**: Sparse Motion Representation  
+- **Phase 5**: Pseudo-label Generation  
+- **Phase 6**: Label Refinement  
+- **Phase 7**: Self-Evolution  
+- **Phase 8**: Sparse Feedback  
+- **Phase 9**: Final Detection  
+
+All notebooks are located in the `notebooks/` directory and should be executed in order.
+
 ## Disclaimer
 This is **not the official implementation**.  
 All credits for the original method belong to the authors.
