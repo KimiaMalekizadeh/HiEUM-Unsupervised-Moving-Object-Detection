@@ -67,3 +67,21 @@ This figure shows the binary foreground mask generated from bounding box annotat
 
 ### Phase 9 – Final Moving Object Detection
 ![Phase 9](figures/phase9_final_detection.png)
+
+### Sparse Overlay Comparison
+![Overlay Comparison](figures/phase9_overlay.png)
+
+This figure compares the sparse responses overlaid on the original image at Phase 4 and Phase 9. Phase 4 exhibits widely distributed and noisy sparse responses, while Phase 9 shows refined and concentrated activations corresponding to true moving objects.
+
+
+### Residual Difference Map
+![Difference Map](figures/phase9_difference_map.png)
+
+This residual map highlights the regions where sparse responses are significantly refined between Phase 4 and Phase 9, demonstrating effective suppression of background noise.
+
+
+
+### Sparse Value Distribution
+![Sparse Histogram](figures/phase9_sparse_histogram.png)
+
+The histogram comparison shows a clear shift toward lower sparsity values in Phase 9, indicating enhanced sparsity and energy concentration on meaningful motion regions.
